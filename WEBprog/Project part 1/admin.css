@@ -1,0 +1,420 @@
+body{
+  margin: 0;
+  /*background-image: url(fon.jpg);
+  background-size: cover;*/
+  }
+  .admin button{
+    height: 50px;
+    width: 130px;
+    margin-bottom: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: black;
+    color: white;
+  }
+  .admin{
+    right: 10%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20%;
+  }
+  .fl{
+    display: flex;
+    margin: auto;
+  }
+  .main{
+    width: 60%;
+  }
+  .sign_in{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .sign_in input{
+    font-size: 2vh;
+    margin-bottom: 6vh;
+  }
+  .sign_in img {
+    width: 13vw;
+    height: 5vh;
+    margin-bottom: 6vh;
+  }
+  .search input{
+    font-size: 15px;
+  }
+  .search{
+    position: absolute;
+    align-self: center;
+    right: 2vw;
+  }
+  .search button{
+    width: 27px;
+    background-color: black;
+  }
+  .search img{
+    width: 15px;
+    height: 15px;
+  }
+nav{
+  padding-left: 20%;
+  padding-right: 20%;
+  position: absolute;
+  background-color: black;
+  margin: 0;
+  width: 60%;
+  height: 7vh;
+  display: flex;
+}
+nav a{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  font-family: sans-serif;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  display: flex;
+  justify-content: space-around;
+  color: #CCCCCC;
+}
+footer {
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  align-self: flex-end;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  min-height: 5vh;
+}
+.icon{
+  display: flex;
+}
+.icon img{
+  margin: auto;
+  width: 25%;
+  margin-top: 13vh;
+}
+.main_image img{
+  width: 100%;
+}
+.follow{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.follow img{
+  width: 18vw;
+  height: 37vh;
+  margin: 14px;
+}
+.ffollow{
+  margin: 30px;
+}
+.ffollow a img{
+  width: 23%;
+}
+.ffollow img{
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+.share{
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.share img{
+  display: flex;
+  width: 17%;
+  margin: auto;
+}
+.social_networks{
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-bottom: 7vh;
+}
+.social_networks img{
+  width: 8%;
+  height: 8%;
+}
+
+@media screen and (max-width: 400px){
+  .fl .main .admin{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 20%;
+  }
+  .main .admin button{
+    width: 50px;
+    height: 30px;
+  }
+    .sign_in{
+      width: 80%;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+    .sign_in input{
+      font-size: 2vh;
+      margin-bottom: 6vh;
+    }
+    .sign_in img {
+      width: 40vw;
+      height: 5vh;
+      margin-bottom: 6vh;
+    }
+  .icon p{
+    display: flex;
+    width: 10%;
+  }
+  .search{
+    position: absolute;
+    right: 4vw;
+  }
+  .search input{
+    visibility: hidden;
+    /*pri najatii na loop budet vyhodit'*/
+  }
+  nav a{
+    font-size: 80%;
+  }
+  .share img{
+    width: 50%;
+  }
+  .ffollow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .ffollow img{
+    width: 60%;
+  }
+  .ffollow a img{
+    width: 40%;
+  }
+  .icon img{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    font-size: 80%;
+  }
+  .social_networks{
+    margin-bottom: 13%;
+    align-items: center;
+  }
+  .social_networks img{
+    width: 15%;
+    height: 15%;
+  }
+  .follow{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .follow img{
+    width: 18vw;
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 800px){
+
+    .sign_in{
+      width: 80%;
+      display: flex;
+      align-items: center;
+      margin: auto;
+    }
+    .sign_in input{
+      font-size: 2vh;
+      margin-bottom: 6vh;
+    }
+    .sign_in img {
+      width: 40vw;
+      height: 5vh;
+      margin-bottom: 6vh;
+    }
+  .icon img{
+    display: flex;
+    width: 10%;
+  }
+  .search{
+    position: absolute;
+    right: 4vw;
+  }
+  .search input{
+    visibility: hidden;
+    /*pri najatii na loop budet vyhodit'*/
+  }
+  nav a{
+    font-size: 80%;
+  }
+  .share img{
+    width: 50%;
+  }
+  .ffollow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .ffollow img{
+    width: 60%;
+  }
+  .ffollow a img{
+    width: 40%;
+  }
+  .icon img{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    font-size: 80%;
+  }
+  .social_networks{
+    margin-bottom: 13%;
+    align-items: center;
+  }
+  .social_networks img{
+    width: 15%;
+    height: 15%;
+  }
+  .follow{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .follow img{
+    width: 22vw;
+    height: 18vh;
+  }
+}
+@media screen and (max-width: 1000px){
+  .icon{
+    display: flex;
+  }
+  .icon img{
+    position: relative;
+    margin: auto;
+    width: 25%;
+    margin-top: 13vh;
+  }
+  .search{
+    position: absolute;
+    right: 4vw;
+  }
+  .search input{
+    visibility: hidden;
+    /*pri najatii na loop budet vyhodit'*/
+  }
+  nav a{
+    font-size: 80%;
+  }
+  .share img{
+    width: 50%;
+  }
+  .ffollow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .ffollow img{
+    width: 60%;
+  }
+  .ffollow a img{
+    width: 40%;
+  }
+  .icon img{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    font-size: 80%;
+  }
+  .social_networks{
+    margin-bottom: 13%;
+    align-items: center;
+  }
+  .social_networks img{
+    width: 15%;
+    height: 15%;
+  }
+  .follow{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  .follow img{
+    width: 26vw;
+    height: 22vh;
+  }
+}
+@media screen and (max-width: 1400px){
+  .icon{
+    display: flex;
+  }
+  .icon img{
+    margin: auto;
+    width: 25%;
+    margin-top: 13vh;
+  }
+  .search{
+    position: absolute;
+    right: 4vw;
+  }
+  .search input{
+    visibility: hidden;
+    /*pri najatii na loop budet vyhodit'*/
+  }
+  nav a{
+    font-size: 80%;
+  }
+  .share img{
+    width: 50%;
+  }
+  .ffollow{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .ffollow img{
+    width: 60%;
+  }
+  .ffollow a img{
+    width: 40%;
+  }
+  .icon img{
+    width: 100%;
+  }
+  footer{
+    width: 100%;
+    font-size: 80%;
+  }
+  .social_networks{
+    margin-bottom: 13%;
+    align-items: center;
+  }
+  .social_networks img{
+    width: 15%;
+    height: 15%;
+  }
+  .follow{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 3;
+  }
+  .follow img{
+    width: 22vw;
+    height: 18vh;
+  }
+}

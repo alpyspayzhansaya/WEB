@@ -1,0 +1,165 @@
+<html>
+<head>
+<style>
+/* Write your code here */
+body {
+  background: url(http://backgroundlabs.com/wp-content/uploads/2013/04/subtle-mosaic-pattern.png);
+}
+.logo_part {
+  display: flex;
+}
+.search {
+  margin-left: 100px;
+  margin-top: 35px;
+}
+.container {
+  background: white;
+  margin-top: -8px;
+  display: block;
+  height: auto;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+nav {
+  background-color: #CCCCCC;
+  width: 100%;
+  display: flex;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 150px;
+  height: 193px;
+  border: 1px  solid red;
+}
+nav a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  flex-grow: 1;
+}
+nav a:hover{
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  color: white;
+}
+.title {
+  text-align: center;
+  background: #6498F8;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 9px 9px 0 0;
+}
+.price {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+footer {
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  align-self: flex-end;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  min-height: 5vh;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <nav>
+    <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
+  </nav>
+  <div class="logo_part">
+     <img src="http://via.placeholder.com/200x100"/>
+     <div class="search">
+       <input type="text"/>
+       <button>Search</button>
+     </div>
+  </div>
+</header>
+
+<section class="main_section">
+  <div class="cards">
+    <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+       <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+    <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+        <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+     <div class="card">
+      <a href="#" class="title">Toyota Avensis</a>
+        <img src="http://via.placeholder.com/150x150"/>
+      <div class="description">
+
+      </div>
+      <div class="price">
+        50.000$
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  @copy; 2017 Wheels.kz. All cars
+</footer>
+</div>
+</html>

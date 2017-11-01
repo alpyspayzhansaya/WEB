@@ -1,0 +1,180 @@
+body{
+  margin: 0;
+  }
+  .collections{
+    width: 75.1%;
+    margin: auto;
+    display: flex;
+  }
+  .collections img{
+    width: 97.2%;
+    height: 78%;
+  }
+  .sign_in{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .sign_in input{
+    font-size: 2vh;
+    margin-bottom: 6vh;
+  }
+  .sign_in img {
+    width: 13vw;
+    height: 5vh;
+    margin-bottom: 6vh;
+  }
+  .items{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+  .items img{
+    width: 350px;
+    height: 500px;
+  }
+  .search input{
+    font-size: 15px;
+  }
+  .search{
+    position: absolute;
+    align-self: center;
+    right: 2vw;
+  }
+  .search button{
+    width: 27px;
+    background-color: black;
+  }
+  .search img{
+    width: 15px;
+    height: 15px;
+  }
+nav{
+  padding-left: 20%;
+  padding-right: 20%;
+  position: absolute;
+  background-color: black;
+  margin: 0;
+  width: 60%;
+  height: 7vh;
+  display: flex;
+}
+nav a{
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+  font-family: sans-serif;
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+nav a:hover{
+  display: flex;
+  justify-content: space-around;
+  color: #CCCCCC;
+}
+footer {
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  align-self: flex-end;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  min-height: 5vh;
+}
+.icon{
+  display: flex;
+}
+.icon img{
+  margin: auto;
+  width: 25%;
+  margin-top: 13vh;
+}
+.share{
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.share img{
+  display: flex;
+  width: 17%;
+  margin: auto;
+}
+.social_networks{
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  margin-bottom: 7vh;
+}
+.social_networks img{
+  width: 8%;
+  height: 8%;
+}
+@media screen and (max-width: 800px){
+.collections{
+  width: 90%;
+  margin-left: 4.5vw;
+  display: flex;
+}
+.collections img{
+  width: 97.2%;
+  height: 78%;
+}
+  .sign_in{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  .sign_in input{
+    font-size: 2vh;
+    margin-bottom: 6vh;
+  }
+  .sign_in img {
+    width: 40vw;
+    height: 5vh;
+    margin-bottom: 6vh;
+  }
+  .search{
+    position: absolute;
+    right: 4vw;
+  }
+  .search input{
+    visibility: hidden;
+    /*pri najatii na loop budet vyhodit'*/
+  }
+  nav a{
+    font-size: 80%;
+  }
+  .share img{
+    width: 50%;
+  }
+  .icon img{
+    width: 60%;
+    margin-top: 10vh;
+  }
+  footer{
+    width: 100%;
+    font-size: 80%;
+  }
+  .social_networks{
+    margin-bottom: 13%;
+    align-items: center;
+  }
+  .social_networks img{
+    width: 15%;
+    height: 15%;
+  }
+  .items{
+    margin-left: 4.5vw;
+  }
+}
